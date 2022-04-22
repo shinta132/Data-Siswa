@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="StringEscaping">
+    <string name="app_name">Data Siswa</string>
+    <string name="registrasi">Form Registrasi</string>
+    <string name="username">Username</string>
+    <string name="ulangi_password">Ulangi Password</string>
+    <string name="password">Password</string>
+    <string name="tanya">You have account ?</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign In.</string>
+    <string name="login">Login</string>
+    <string name="tanya2">Don't have an account ?</string>
+    <string name="tambah_data">Tambah</string>
+    <string name="btn_keluar">Keluar</string>
+</resources>

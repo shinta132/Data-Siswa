@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/up_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama Disini"/>
+
+    <EditText
+        android:id="@+id/up_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Alamat Disini"/>
+
+    <EditText
+        android:id="@+id/up_nis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan NIS Disini"/>
+
+    <EditText
+        android:id="@+id/up_kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Alamat Disini"/>
+
+    <EditText
+        android:id="@+id/up_peminatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Peminatan Disini"/>
+
+    <EditText
+        android:id="@+id/up_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Gender Disini"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/btn_up_delete"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:backgroundTint="#FF0E0E"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn_up_update"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:backgroundTint="#57F117"
+            android:layout_marginStart="12dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

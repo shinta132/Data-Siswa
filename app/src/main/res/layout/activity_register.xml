@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrasi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#2E85B5"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="18dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:hint="@string/username"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColorHint="#CE6C6C6C"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColorHint="#CE6C6C6C"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText2" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/ulangi_password"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#CE6C6C6C"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#2198C3"
+        android:hint="@string/register"
+        android:textColorHint="#fff"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tanya" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            android:layout_marginStart="7dp"
+            android:textColor="#2198C3"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</RelativeLayout>
